@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GDF.InformationSceneController">
+   <children>
+      <TabPane prefHeight="600.0" prefWidth="1035.0" stylesheets="@design.css" tabClosingPolicy="UNAVAILABLE">
+         <tabs>
+            <Tab text="                                          Help">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="392.0" prefWidth="308.0">
+                     <children>
+                        <TextArea fx:id="helpTextArea" editable="false" prefHeight="376.0" prefWidth="955.0" wrapText="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="60.0" />
+                        <Label layoutX="321.0" layoutY="32.0" text="Documentation" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Lato Black" size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="364.0" layoutY="95.0" text="Tell you how to be a superhero" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Lato Thin" size="20.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="                                       About">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="542.0" prefWidth="1043.0">
+                     <children>
+                        <TextArea fx:id="aboutTextArea" editable="false" layoutY="139.0" prefHeight="344.0" prefWidth="955.0" wrapText="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="60.0" />
+                        <Label layoutX="292.0" layoutY="38.0" text="Graph Path Finder" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Lato Black" size="50.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="301.0" layoutY="112.0" text="A graph simulator that makes the world better" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Lato Thin" size="20.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+</Pane>

@@ -1,0 +1,6 @@
+- de mo file nhap du lieu		-> ctrl O
+- de xuat file anh 		  		-> ctrl S
+- de tao moi panel        		-> ctrl N
+- de thoat khoi chuong trinh 	-> ctrl X
+- de mo cua so About 			-> ctrl A
+- de mo cua so Help 			-> ctrl H
